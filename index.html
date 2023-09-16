@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Let's Workout </title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+<style>
+body{
+color:white;
+margin:0px;
+padding :0px;
+background:url('images/bg.jpg');
+font-family: 'Baloo Bhaina 2', cursive;
+background-size: cover;
+}
+
+.left{
+
+display:inline-block;
+position:absolute;
+left:20px;
+
+
+
+}
+
+.mid{
+
+display:block;
+width:50%;
+margin: 20px auto;
+top:20px;
+
+
+}
+
+.right{
+
+display:inline-block;
+position:absolute;
+right:14px;
+top:20px;
+}
+
+.navbar{
+display:inline-block;
+}
+.navbar li{
+display:inline-block;
+font-size:24px;
+}
+.navbar li a{
+color:white;
+display:inline-block;
+text-decoration:none;
+padding : 12px 13px;
+
+}
+.navbar li a:hover, .navbar li a.active{
+text-decoration:underline;
+color:grey;
+}
+.left img{
+width:110px;
+filter:invert(100%)
+
+}
+.left div{
+line-height:0px;
+text-align:center;
+}
+.btn{
+color:white;
+background-color:black;
+margin: 20px 15px;
+padding : 4px 13px;
+border-radius:10px;
+cursor:pointer;
+font-family: 'Baloo Bhaina 2', cursive;
+
+
+}
+.container{
+
+margin : 106px 80px;
+padding:  75px;
+width:33%;
+border-radius:24px;
+}
+
+.form-group input{
+font-family: 'Baloo Bhaina 2', cursive;
+border: 2px solid black;
+margin: 9px auto ;
+padding: 5px;
+text-align:center;
+border-radius:8px;
+width:400px;
+font-size:20px;
+}
+.container button{
+display:block;
+width:100px;
+margin: 60px auto;
+}
+
+</style>
+</head>
+
+<body>
+<header class="header">
+
+<div class="left">
+<img src="images/logo.webp" >
+<div>Mohan Fitness</div> 
+
+
+</div>
+<div class="mid">
+<ul class="navbar">
+<li> <a href="#" class="Active">Home</a></li>
+<li ><a href="#" class="Active">Fitness Calculator</a></li>
+<li ><a href="#" class="Active">About</a></li>
+<li> <a href="#" class="Active">Contact us</a></li>
+</ul>
+</div>
+
+<div class="right">
+<button class="btn">call us</button>
+<button  class="btn">email us</button>
+
+</div>
+
+</header>
+
+ <div class="container">
+<h1>Join the best GYM in warkha</h1>
+<form action="noaction.php">
+<div class="form-group">
+   <input type="text" name="" placeholder="Enter your name">
+</div>
+<div class="form-group">
+   <input type="text" name="" placeholder="Enter your Age">
+</div>
+<div class="form-group">
+   <input type="text" name="" placeholder="Enter your Gender">
+</div>
+<div class="form-group">
+   <input type="text" name="" placeholder="Enter your Locality">
+</div>
+<div>
+<button class="btn">submit</button>
+</div>
+</div>
+</body>
+</html>

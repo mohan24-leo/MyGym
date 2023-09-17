@@ -1,0 +1,2 @@
+hello lets have 
+some fun with git
